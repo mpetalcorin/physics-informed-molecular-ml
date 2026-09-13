@@ -1,0 +1,5 @@
+method,year,Pearson_r,RMSE_pK,benchmark,source
+K_DEEP,2018,0.82,1.27,PDBbind 2016 core,PMID 29309725
+DeepAtom,2021,0.83,1.23,PDBbind 2016 core,PMID 33360998
+RF-Score + ligand descriptors,2019,0.821,,PDBbind 2016 core,PMID 31598630
+LGN fusion GNN,2024,0.842,,PDBbind 2016 core,PMID 38232063

@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+.localized
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# Credentials
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+~$*

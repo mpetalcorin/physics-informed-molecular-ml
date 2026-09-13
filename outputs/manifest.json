@@ -1,0 +1,41 @@
+{
+  "seed": 20260912,
+  "n_rows": 3500,
+  "synthetic_data": true,
+  "qm_features": [
+    "MW",
+    "logP",
+    "HBD",
+    "HBA",
+    "TPSA",
+    "rotB",
+    "aromatic_rings",
+    "HOMO_eV",
+    "LUMO_eV",
+    "gap_eV",
+    "dipole_D",
+    "E_xTB_kcalmol"
+  ],
+  "affinity_features": [
+    "MW",
+    "logP",
+    "HBD",
+    "HBA",
+    "TPSA",
+    "rotB",
+    "aromatic_rings",
+    "HOMO_eV",
+    "LUMO_eV",
+    "gap_eV",
+    "dipole_D",
+    "E_xTB_kcalmol",
+    "n_hbonds",
+    "n_hydrophobic",
+    "n_pi",
+    "n_salt_bridges",
+    "buried_SA_A2"
+  ],
+  "grouping_variable": "protein_family",
+  "validation_note": "Protein-family group holdout used for affinity task.",
+  "literature_note": "Benchmarks are contextual and not direct comparators to synthetic performance."
+}
