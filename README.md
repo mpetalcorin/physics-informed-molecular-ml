@@ -191,17 +191,13 @@ It is intended for methodological demonstration, education, portfolio developmen
 
 The first modelling problem predicts the correction between lower-cost and higher-level molecular energies.
 
-For molecule \(i\),
+For molecule i:
 
-\[
-\Delta E_i = E_{DFT,i} - E_{xTB,i}
-\]
+ΔEᵢ = Eᴰᶠᵀ,ᵢ − Eˣᵀᴮ,ᵢ
 
-The learned prediction becomes
+The learned prediction becomes:
 
-\[
-\hat{E}_{DFT,i} = E_{xTB,i} + \hat{\Delta E}_i
-\]
+Êᴰᶠᵀ,ᵢ = Eˣᵀᴮ,ᵢ + ΔÊᵢ
 
 In the reproducible synthetic experiment, the uncorrected xTB-like energy has an error of approximately:
 
