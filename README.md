@@ -48,23 +48,15 @@ Machine learning correction
 Estimated high-level DFT energy
 ```
 
-The machine learning model learns
+The machine learning model learns:
 
-\[
-\Delta E = E_{\mathrm{DFT}} - E_{\mathrm{xTB}}
-\]
+ΔE = Eᴰᶠᵀ − Eˣᵀᴮ
 
-and predicts
+and predicts:
 
-\[
-E_{\mathrm{DFT}}^{\mathrm{predicted}}
-=
-E_{\mathrm{xTB}}
-+
-\Delta E_{\mathrm{ML}}
-\]
+Eᴰᶠᵀ, predicted = Eˣᵀᴮ + ΔEᴹᴸ
 
-This approach is commonly called **Δ-learning**.
+This approach is commonly called Δ-learning.
 
 The same physics-informed philosophy can be extended to molecular recognition:
 
